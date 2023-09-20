@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-fzzj
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/pmacik-testing/ci10t-777-0085-tenant/ci10t-777-0085-app/devfile-sample-fzzj@sha256:73d5630544d632db07349b857167d9162c9199f0291fe266dfec3fbe030f945b
+        name: my-nodejs
+        resources: {}
+status: {}
